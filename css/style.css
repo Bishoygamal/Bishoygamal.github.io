@@ -1,0 +1,493 @@
+/*Start our frameWork*/
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height:3000px;
+
+}
+.container{
+    width:1200px;
+    margin: auto;
+    position: relative;
+}
+.table{
+    display: table;
+    height: 100%;
+}
+.table-row{
+    display: table-row;
+}
+.text-center{
+    text-align: center;
+}
+.upper{
+    text-transform: uppercase;
+}
+.main-color{
+    color: #f7600e;
+}
+.main-background{
+    background-color: #f7600e;
+}
+
+.overlay{
+    background: rgba(49,55,61,.7);
+    width: 100%;
+    height: 100%;
+}
+::-webkit-input-placeholder{
+    font-size: 14px;
+}
+::-moz-input-placeholder{
+    font-size: 14px;
+}
+::-ms-input-placeholder{
+    font-size: 14px;
+}
+.hidden{
+    display: none;
+}
+/*End our frameWork*/
+
+/*Start Header*/
+.header{
+    background:url('../images/background.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #FFF;
+        
+}
+
+.overlay{
+    background: rgba(49,55,61,.7);
+    width: 100%;
+    height: 100%;
+}
+.header .navbar{
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+  
+}
+.header .navbar .links{
+    float:right;
+}
+.header .navbar .links i{
+    margin-left:10px;
+}
+.header .intro h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+.header .intro p{
+    margin:10px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: #E2E2E2;
+}
+.header .overlay button{
+    background: transparent;
+    color: #fff;
+    padding 10px 0;
+    margin:0 8px;
+    width: 180px;
+    font-size: 14px;
+    border:1px solid #909090;
+    border-radius: 10px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.header .overlay button:hover{
+    background-color: #f7600e;
+    border:1px solid #f7600e;
+    color: #fff;
+}
+.header .overlay .arrows{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.header .overlay .arrows i{
+    border:2px solid #7b7b7b;
+    border-radius: 50%;
+    width:33px;
+    height:33px;
+    line-height: 33px;
+    cursor: pointer;
+}
+/*End Header*/
+/*Start Features*/
+.features{
+    padding: 80px 0;
+    overflow: hidden;
+}
+.features .box{
+    width:22%;
+    float: left;
+    margin-right: 4%;   
+}
+.features .box i{
+    color:#f7600e;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+    line-height: 120px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.features .box i:hover{
+    background-color: #f7600e;
+    color:#fff;
+    border:1px solid #f7600e;
+}
+.features .box h3{
+    text-transform: uppercase;
+    font-weight:normal;
+    color:#505050;
+}
+.features .box p{
+    color:#888;
+    line-height: 2;
+}
+.features .box:last-child{
+    margin-right: 0;
+}
+/*End Features*/
+/*Start Subscribe*/
+.subscribe{
+    background: url('../images/church01.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #FFF; 
+}
+.subscribe form{
+    padding: 100px 0;
+    width:700px;
+    text-align: center;
+    margin:auto;
+}
+.subscribe form input[type=email]{
+    padding: 0 10px;
+    width:280px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top:2px;
+    border:none;
+    height: 37px;
+    line-height: 37px;
+    
+}
+
+.subscribe form button{
+    padding: 10px;
+    width:220px;
+    border: 1px;
+    background-color: #f7600e;
+    border: none;
+    color:#fff;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+/*End Subscribe*/
+/*Start Our Work*/
+.our-work{
+    padding:50px 0;
+}
+.our-work h2{
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.our-work h2~p{
+    line-height: 2;
+    margin:10px 0 40px;
+}
+.our-work .show-more{
+    background-color: transparent;
+    border:1px solid #ccc;
+    color: #555;
+    margin-top:20px;
+    padding: 10px;
+    width:180px;
+    border-radius: 10px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.our-work .show-more:hover{
+    background-color: #f7600e;
+    border:1px solid #f7600e;
+    color: #fff;
+}
+.our-work .items-box{
+    overflow: hidden;
+    
+}
+.our-work .items-box .item{
+    float: left;
+    width:32%;
+    margin-left:1.3333%;
+    margin-bottom: 12px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.our-work .items-box .item .over{
+    position :absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,96,14,.9);
+    color: #fff;
+    -webkit-transition:all 2s ease-in-out;
+    -moz-transition:all 2s ease-in-out;
+    -o-transition:all 2s ease-in-out;
+    transition:all 2s ease-in-out;
+    display: none;
+}
+.our-work .items-box .item:hover .over{
+    display: block;
+}
+.our-work .items-box .item .over h4{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.our-work .items-box .item .over p{
+    margin-top:10px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+.our-work .items-box .item .over button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    
+}
+.our-work .items-box .item .over button:hover{
+    background-color: #fff;
+    color: #f7600e;
+    border:1px solid #fff;
+}
+.our-work .items-box .item img{
+    width:400px;
+    height: 300px;
+}
+/*End Our Work*/
+/*Start Testimonials*/
+.testim{
+    
+    background: url('../images/church01.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #FFF; 
+}
+.testim .client{
+   padding: 50px 0; 
+   font-size: 20px;
+}
+.testim .client img{
+    border-radius:50%;
+}
+.testim .client p{
+    line-height: 2;
+    font-style: italic;
+}
+.testim .fa-chevron-right{
+    position: absolute;
+    top:50%;
+    right: 0;
+    color: #999;
+    cursor:pointer;
+}
+.testim .fa-chevron-left{
+    position: absolute;
+    top:50%;
+    left: 0;
+    color: #999;
+    cursor: pointer;
+}
+.testim .fa-chevron-right:hover,
+.testim .fa-chevron-left:hover{
+    color: #f7600e;
+}
+/*End Testimonials*/
+/*Start Our-team*/
+.our-team{
+    padding: 50px 0;
+}
+.our-team h2{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.our-team .main{
+    font-size: 20px;
+    color:#666;
+    margin:10px 0 40px;
+    line-height: 2;
+}
+.our-team .the-team{
+    overflow: hidden;
+}
+.our-team .the-team .person{
+    float:left;
+    width:24%;
+    margin-left:1%;
+    color:#888;
+    
+}
+.our-team .the-team .person:hover img{
+    filter:none;
+    -webkit-filter:gratscale(0);
+}
+.our-team .the-team .person:hover{
+    color: #555;
+}
+.our-team .the-team .person:hover .fa-facebook{
+    background-color: #3b5998;
+}
+.our-team .the-team .person:hover .fa-twitter{
+    background-color: #55acee;
+}
+.our-team .the-team .person:hover .fa-google-plus{
+    background-color: #dc4e41;
+}
+.our-team .the-team .person img{
+    width:265px;
+    height: 290px;
+    filter:gray;
+    filter:grayscale(1);
+    -webkit-filter:grayscale(1);
+}
+.our-team .the-team .person p{
+    font-size: 15px;
+}
+.our-team .the-team .social-icons i{
+    background-color: #9da1a5;
+    color:#fff;
+    width:30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+/*End Our-team*/
+/*Start Contact*/
+.contact{
+    background: url('../images/background2.jpg');
+      -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  
+}
+.contact .overlay{
+    padding:50px 0;
+    color:#fff;
+}
+.contact h2{
+    font-size: 35px;
+}
+.contact form{
+    width:700px;
+    margin:auto;
+    text-align: center;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.contact form input[type='text'],
+.contact form input[type='email']{
+    width:48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+}
+.contact form input[type='text']{
+    float: left;
+   
+}
+.contact form input[type='email']{
+    float: right;
+}
+
+.contact form textarea{
+    margin-top:20px;
+    width: 100%;
+     padding: 0 10px;
+    height: 140px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+    padding: 10px;
+}
+.contact form .info{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.contact form .info button{
+    float: left;
+    padding: 10px;
+    width:220px;
+    border: 1px;
+    background-color: #f7600e;
+    border: none;
+    color:#fff;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.contact form .info .form-icons{
+    float: right;
+}
+.contact form .info .form-icons i{
+    background-color: #9da1a5;
+    color:#fff;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.contact form .info .form-icons .fa-facebook{
+    background-color: #3b5998;
+}
+.contact form .info .form-icons .fa-twitter{
+    background-color: #55acee;
+}
+.contact form .info .form-icons .fa-google-plus{
+    background-color: #dc4e41;
+}
+/*End Contact*/
